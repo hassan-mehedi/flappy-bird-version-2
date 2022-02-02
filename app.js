@@ -111,12 +111,6 @@ class Obstacles {
         brush.fillStyle = this.color;
         // brush.fillRect(this.x, 0, this.width, this.heightOfUpperRect);
         brush.drawImage(brick, this.x, 0, this.width, this.heightOfUpperRect);
-        // brush.fillRect(
-        //     this.x,
-        //     canvas.height - this.heightOfLowerRect,
-        //     this.width,
-        //     this.heightOfLowerRect
-        // );
         brush.drawImage(
             brick,
             this.x,
