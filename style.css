@@ -3,7 +3,19 @@
     margin: 0;
     padding: 0;
 }
-
+p{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 10px 5px;
+    width: 450px;
+    font-size: 20px;
+    background-color: #5F5F5F;
+    color: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.6)
+}
 .container {
     position: absolute;
     top: 50%;
